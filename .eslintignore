@@ -1,0 +1,9 @@
+*
+!*/
+!*.js
+!*.ts
+!*.json
+.cache
+.next
+node_modules
+dist
