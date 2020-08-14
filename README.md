@@ -7,5 +7,5 @@ yarn create next-app my-app-name --example "https://github.com/dastasoft/nextjs-
 or
 
 ```sh
-npx create-next-app my-app-name --example "https://github.com/dastasoft/nextjs-boilerplate"
+npx create-next-app my-app-name --use-npm --example "https://github.com/dastasoft/nextjs-boilerplate"
 ```
