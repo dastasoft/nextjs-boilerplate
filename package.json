@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export"
   },
   "keywords": [
     "nextjs",
     "tailwindcss",
     "eslint",
     "prettier",
-    "boilerplate"
+    "boilerplate",
+    "svg"
   ],
   "author": "dastasoft",
   "license": "ISC",
@@ -23,6 +25,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.1",
     "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
