@@ -2,9 +2,9 @@ import NextLogo from '../public/nextjs.svg';
 
 export default function Home() {
   return (
-    <div className="p-4 mx-auto flex items-center">
+    <div className="flex justify-center items-center p-4">
       <NextLogo className="mr-4" width="100px" height="100px" />
-      <span>Boilerplate</span>
+      <span className="text-2xl">Boilerplate</span>
     </div>
   );
 }
