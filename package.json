@@ -21,9 +21,10 @@
   "author": "dastasoft",
   "license": "ISC",
   "dependencies": {
-    "next": "^10.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "mongodb": "^3.6.3",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.1.1",
