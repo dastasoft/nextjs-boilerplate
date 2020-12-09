@@ -1,7 +1,7 @@
 {
   "name": "nextjs-boilerplate",
   "version": "1.0.0",
-  "description": "A NextJS boilerplate with tailwindcss, eslint and prettier",
+  "description": "A NextJS boilerplate with tailwindcss, eslint, prettier and mongodb",
   "main": "index.js",
   "scripts": {
     "build": "next build",

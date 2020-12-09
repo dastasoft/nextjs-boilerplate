@@ -3,16 +3,18 @@ import { connectToDatabase } from "../util/mongodb"
 
 export default function Home({ isConnected }) {
   return (
-    <div className="flex justify-center items-center p-4">
-      <NextLogo className="mr-4" width="100px" height="100px" />
-      <span className="text-2xl">Boilerplate</span>
+    <div className="flex flex-col justify-center items-center p-4">
+      <div className="flex justify-center items-center">
+        <NextLogo className="mr-4" width="100px" height="100px" />
+        <span className="text-2xl block">Boilerplate</span>
+      </div>
       {isConnected ? (
-        <h2 className="subtitle">You are connected to MongoDB</h2>
+        <h5 className="subtitle">You are connected to MongoDB</h5>
       ) : (
-        <h2 className="subtitle">
+        <h5 className="subtitle">
           You are NOT connected to MongoDB. Check the <code>README.md</code> for
           instructions.
-        </h2>
+        </h5>
       )}
     </div>
   )
