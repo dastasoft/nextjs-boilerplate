@@ -1,4 +1,4 @@
-import NextLogo from '../public/nextjs.svg';
+import NextLogo from "../public/nextjs.svg"
 
 export default function Home() {
   return (
@@ -6,5 +6,5 @@ export default function Home() {
       <NextLogo className="mr-4" width="100px" height="100px" />
       <span className="text-2xl">Boilerplate</span>
     </div>
-  );
+  )
 }
