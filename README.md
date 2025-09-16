@@ -1,23 +1,36 @@
-# NEXTJS BOILERPLATE
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-```sh
-yarn create next-app my-app-name --example "https://github.com/dastasoft/nextjs-boilerplate"
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-or
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```sh
-npx create-next-app my-app-name --use-npm --example "https://github.com/dastasoft/nextjs-boilerplate"
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Support Me
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Thank you for using my project! If you find it helpful, please consider supporting me in one of the following ways:
+## Learn More
 
-- Star the project: If you haven't done so already, please consider giving this project a star on GitHub. It's a quick and easy way to show your appreciation and help others discover the project.
-- Spread the word: If you know someone who might benefit from this project, please share it with them! Whether it's on social media, in a blog post, or in a conversation, every bit helps.
-- Donate: If you would like to support the project financially, you can donate via this button. Your contribution will be used to develop new articles and projects.
+To learn more about Next.js, take a look at the following resources:
 
-<a href="https://www.buymeacoffee.com/dastasoft" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Thank you again for using my project, and I appreciate any support you can offer!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

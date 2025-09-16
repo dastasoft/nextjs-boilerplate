@@ -1,54 +1,36 @@
 {
   "name": "nextjs-boilerplate",
-  "version": "1.0.0",
-  "author": "dastasoft",
-  "description": "A NextJS boilerplate with tailwindcss, eslint and prettier",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "next build",
-    "deploy": "next build && next export",
-    "dev": "next",
-    "lint": "eslint . --fix",
-    "start": "next start"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "check:types": "tsc --noEmit --pretty"
   },
-  "keywords": [
-    "nextjs",
-    "tailwindcss",
-    "eslint",
-    "prettier",
-    "boilerplate",
-    "svg"
-  ],
-  "license": "ISC",
   "dependencies": {
-    "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^2.0.1",
-    "eslint": "^7.25.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": ">=6.0.0",
-    "lint-staged": ">=11.0.0",
-    "postcss": "^8.2.14",
-    "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "@antfu/eslint-config": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15",
+    "eslint-plugin-format": "^1",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react-hooks": "^5",
+    "eslint-plugin-react-refresh": "^0",
+    "eslint-plugin-tailwindcss": "^3",
+    "lefthook": "^1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
